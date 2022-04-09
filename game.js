@@ -160,7 +160,7 @@ function animate() {
  
 
 
-if (scrollOffset> 6000 && player.velocity.x  ){
+if (scrollOffset> 6000 ){
     console.log("you win")
     winlose.innerHTML='You won 🎉'
     winmusic.play();
